@@ -5,11 +5,10 @@ echo -e "\n\n===== STARTED CANDID GENERATION ====="
 ABSOLUTE_SCRIPT_PATH=$(realpath $0)
 CANISTER_ROOT=$(dirname $ABSOLUTE_SCRIPT_PATH)/../canisters
 
+echo "CANISTER_ROOT: $CANISTER_ROOT"
+
 function generate_did() {
     local canister=$1
-
-    # prints the canister name
-    echo "CANISTER_ROOT: $CANISTER_ROOT"
 
 
     cargo build --manifest-path="$CANISTER_ROOT/$canister/Cargo.toml" \
