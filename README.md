@@ -28,7 +28,7 @@ Since **Cycles** are stored in the **Canister** itself, the **Canister** can pay
 
 **Gas** in Ethereum is unpredictable and can be manipulated by miners, while **Cycles** in ICP are predictable and be manipulated by **NNS**.
 
-### Shard → Subnet
+### Shards → Subnets
 
 WHile Ethereum shards by splitting the state of the blockchain into multiple **Shards** to keep an **Node** have the same state with the whole network. ICP splits the network into multiple **Subnets** and allows each **Subnet** to communicate with each other seamlessly like **microservices** but fully on-chain. There are currently dozens of **Subnets**.
 
