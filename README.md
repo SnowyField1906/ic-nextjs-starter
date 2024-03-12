@@ -59,7 +59,7 @@ Since **Subnets** stores **Wasm bytecode**, ICP DApps are end-to-end and can be 
 ### NNS vs. SNS
 
 Governance of ICP is accomplished through a **DAO**, which is called the **Network Nervous System (NNS)**.
- 
+
 Each individual DApp on ICP can have its own governance system similar to the **NNS** by customizing and deploying an out-of-the-box tokenized DAO based on the **Service Nervous System (SNS)** for the dApp.
 
 ### Self-executable Functions vs. Deterministic-time Functions
@@ -98,11 +98,11 @@ This enables a powerful new class of applications for **DeFi** and **GameFi**.
   - `...`
 - `target/`: The built Canisters folder
 - `out/`: The static built Frontend folder
-- `dfx.json`: The is the configuration file for ic-cdk
+- `dfx.json`: The is configuration file for ic-cdk
 - `dfx.webpack.config.js`: The configuration file for Canister declarations
 - `.env` & `.env.local`: The environment variables for the Frontend
 - `.env.icprod` & `.env.icprod.local`: The environment variables for the Canisters
-- `tscofig.json` & `next.config.js` & `tailwind.config.js` & `postcss.config.js: The configuration files for Typescript, Next.js, TailwindCSS, and PostCSS
+- `tscofig.json` & `next.config.js` & `tailwind.config.js` & `postcss.config.js`: The configuration files for Typescript, Next.js, TailwindCSS, and PostCSS
 - `.eslintrc` & `.prettier.json`: The configuration files for Typescript formatter
 - `rust-toolchain.toml`: The Rust version file
 - `rustfmt.toml`: The configuration file for the Rust formatter
