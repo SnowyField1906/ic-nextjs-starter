@@ -58,7 +58,8 @@ Since **Subnets** stores **Wasm bytecode**, ICP DApps are end-to-end and can be 
 
 ### NNS vs. SNS
 
-Governance of ICP is accomplished through a **DAO**, which is called the **Network Nervous System (NNS)**.  
+Governance of ICP is accomplished through a **DAO**, which is called the **Network Nervous System (NNS)**.
+ 
 Each individual DApp on ICP can have its own governance system similar to the **NNS** by customizing and deploying an out-of-the-box tokenized DAO based on the **Service Nervous System (SNS)** for the dApp.
 
 ### Self-executable Functions vs. Deterministic-time Functions
@@ -67,7 +68,7 @@ On the ICP, **Canisters** can run like **Daemon** processes, which mean develope
 
 Meanwhile, **Deterministic-time Functions** are functions that can be executed at a specific time in the future, which is similar to **Cron Job**.
 
-This enables a powerful new class of applications for *DeFi* and *GameFi*.
+This enables a powerful new class of applications for **DeFi** and **GameFi**.
 
 # About This Template
 
