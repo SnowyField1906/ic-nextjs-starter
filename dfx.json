@@ -1,0 +1,31 @@
+{
+    "canisters": {
+        "hello_world": {
+            "candid": "cansisters/hello_world/index.did",
+            "package": "hello_world",
+            "type": "rust",
+            "declarations": {
+                "bindings": ["js", "ts", "did"],
+                "node_compatibility": true
+            }
+        },
+        "frontend": {
+            "dependencies": ["hello_world"],
+            "frontend": {
+                "entrypoint": "src/out/index.html"
+            },
+            "source": ["src/"],
+            "type": "assets",
+            "declarations": {
+                "bindings": []
+            }
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": ""
+        }
+    },
+    "version": 1
+}

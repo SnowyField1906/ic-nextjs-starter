@@ -1,0 +1,29 @@
+# general
+chain_width = 50
+error_on_line_overflow = true
+error_on_unformatted = true
+hard_tabs = true
+force_multiline_blocks = true
+condense_wildcard_suffixes = true
+brace_style = "PreferSameLine"
+
+# comment
+comment_width = 50
+wrap_comments = true
+
+# indentation
+indent_style = "Block"
+
+
+# functions
+fn_call_width = 50
+fn_single_line = false
+fn_params_layout = "Compressed"
+
+# imports
+reorder_imports = true
+group_imports = "StdExternalCrate"
+imports_granularity = "Crate"
+imports_layout = "Vertical"
+reorder_impl_items = true
+reorder_modules = true
