@@ -17,3 +17,6 @@ out/
 dist/
 build/
 target/
+
+# lock files
+*.lock
