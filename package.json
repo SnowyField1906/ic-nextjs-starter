@@ -7,7 +7,7 @@
         "lint": "next lint",
         "lint:fix": "next lint --fix",
         "export": "next build",
-        "dev:canister": "dfx stop && dfx start --background && dfx generate && next dev"
+        "dev:canister": "dfx stop && dfx start --background && chmod +x scripts/did.sh && scripts/did.sh && dfx generate && next dev"
     },
     "dependencies": {
         "@dfinity/agent": "^0.19.2",

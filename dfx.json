@@ -1,7 +1,7 @@
 {
     "canisters": {
         "hello_world": {
-            "candid": "cansisters/hello_world/index.did",
+            "candid": "canisters/hello_world/index.did",
             "package": "hello_world",
             "type": "rust",
             "declarations": {

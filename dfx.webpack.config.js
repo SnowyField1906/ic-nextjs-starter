@@ -5,7 +5,7 @@ const replace = require('replace-in-file')
 const initCanisterIds = () => {
     let localCanisters, prodCanisters, canisters
 
-    console.info('\n\n===== STARTED DFX WEBPACK CONFIG =====')
+    console.info('\n\n===== STARTED DFX CONFIGURATION =====')
 
     // Loading canisters
     try {
@@ -68,7 +68,7 @@ const initCanisterIds = () => {
     ]
     console.info(`Modified file(s): ${files}`)
 
-    console.info('===== ENDED DFX WEBPACK CONFIG =====\n\n')
+    console.info('===== FINISHED DFX CONFIGURATION =====\n\n')
 }
 
 module.exports = {

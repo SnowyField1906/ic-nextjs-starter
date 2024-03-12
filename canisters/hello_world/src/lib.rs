@@ -1,6 +1,7 @@
 use std::cell::RefCell;
 
 use ic_cdk::{
+	export_candid,
 	query,
 	update,
 };
@@ -19,3 +20,5 @@ fn greet() -> String {
 fn set(new_name: String) {
 	NAME.with(|name| *name.borrow_mut() = new_name);
 }
+
+export_candid!();

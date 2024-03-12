@@ -84,7 +84,7 @@ This enables a powerful new class of applications for **DeFi** and **GameFi**.
     - `tests/`: The folder contains Tests using `pocket-ic`
       - `unit_test.rs`: The main file
       - `...`
-    - `index.did`: The Candid file (not auto-generated)
+    - `index.did`: The Candid file
     - `Cargo.toml`: The Rust package manager file
   - `other_canisters/`: Other Canisters in Rust
     - `...`
@@ -96,6 +96,8 @@ This enables a powerful new class of applications for **DeFi** and **GameFi**.
   - `pages/`: The folder contains the Next.js pages
   - `styles/`: The folder contains the CSS files
   - `...`
+- `scripts/`: The folder contains the scripts
+  - `did.sh`: Auto-generate the Candid files for the Canisters
 - `target/`: The built Canisters folder
 - `out/`: The static built Frontend folder
 - `dfx.json`: The is configuration file for ic-cdk
