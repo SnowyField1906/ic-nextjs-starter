@@ -102,7 +102,7 @@ This enables a powerful new class of applications for **DeFi** and **GameFi**.
 - `out/`: The static built Frontend folder
 - `dfx.json`: The is configuration file for ic-cdk
 - `dfx.webpack.config.js`: The configuration file for Canister declarations
-- `.env` & `.env.local`: The environment variables for the Frontend
+- `.env.production` & `.env.development`: The environment variables for the Frontend
 - `.env.icprod` & `.env.icprod.local`: The environment variables for the Canisters
 - `tscofig.json` & `next.config.js` & `tailwind.config.js` & `postcss.config.js`: The configuration files for Typescript, Next.js, TailwindCSS, and PostCSS
 - `.eslintrc` & `.prettier.json`: The configuration files for Typescript formatter
