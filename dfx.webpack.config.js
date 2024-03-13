@@ -26,7 +26,7 @@ const initCanisterIds = () => {
 
     // Checking network
 
-    const network = process.env.NODE_ENV === 'production' ? 'ic' : 'local'
+    const network = process.env.DFX_NETWORK
     console.info(`export DFX_NETWORK=${process.env.DFX_NETWORK}`)
 
     // Setting environment variables for canisters
