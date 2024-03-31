@@ -1,4 +1,4 @@
-# ICP
+# Internet Computer
 
 - [Homepage](https://internetcomputer.org/)
 - [Internet Identity](https://identity.ic0.app)
@@ -12,7 +12,7 @@
 
 Internet Computer is an open and secure **Blockchain-based Network** that can host programs and data in the form of **Smart Contracts**.
 
-## ICP vs. Ethereum
+## IC vs. Ethereum
 
 ### Smart Contracts → Canisters
 
